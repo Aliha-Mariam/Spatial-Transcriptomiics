@@ -266,7 +266,7 @@ sc.pl.spatial(
     ]
 )
 ```
-<img width="2258" height="1091" alt="imagy3" src="https://github.com/user-attachments/assets/ade08f80-631a-4dfe-b88a-b68b20ce991e" />
+<img width="2200" height="1000" alt="imagy3" src="https://github.com/user-attachments/assets/ade08f80-631a-4dfe-b88a-b68b20ce991e" />
 
 This section visualizes sequencing counts and detected gene numbers directly on the tissue image. The `spatial()` function overlays circular spots on top of the high-resolution histology image provided by 10x Genomics. This allows researchers to observe how sequencing quality and gene expression vary across different tissue regions while preserving tissue morphology.
 
@@ -282,7 +282,7 @@ sc.pl.spatial(
     size=1.5
 )
 ```
-<img width="1004" height="1079" alt="imagy4" src="https://github.com/user-attachments/assets/10fd1bd0-18c6-42ef-ba86-801b8468e8be" />
+<img width="800" height="500" alt="imagy4" src="https://github.com/user-attachments/assets/10fd1bd0-18c6-42ef-ba86-801b8468e8be" />
 
 
 This visualization displays the spatial arrangement of Leiden clusters across the tissue section. Spots belonging to the same transcriptional cluster often appear close together spatially, indicating organized tissue structures and biologically related regions. Spatial clustering provides important insights into tissue architecture and potential cell-cell interactions.
@@ -302,7 +302,7 @@ sc.pl.spatial(
     size=1.3,
 )
 ```
-<img width="659" height="1079" alt="imagy5" src="https://github.com/user-attachments/assets/c9c3ceb1-c8ca-48f5-8f8a-10a1e8c2df89" />
+<img width="659" height="500" alt="imagy5" src="https://github.com/user-attachments/assets/c9c3ceb1-c8ca-48f5-8f8a-10a1e8c2df89" />
 
 This command focuses on a specific region of the tissue image by cropping selected coordinates. Only clusters 5 and 9 are visualized, making it easier to examine their spatial relationships. Transparency is adjusted using the alpha parameter so the underlying histological tissue image remains visible. This type of zoomed visualization helps researchers investigate localized tissue organization in greater detail.
 
@@ -438,7 +438,7 @@ sc.pl.embedding(
     color="clusters"
 )
 ```
-<img width="1147" height="1079" alt="imagy9" src="https://github.com/user-attachments/assets/6b7fba79-031a-4a58-b51e-8fabf5c8d03d" />
+<img width="700" height="600" alt="imagy9" src="https://github.com/user-attachments/assets/6b7fba79-031a-4a58-b51e-8fabf5c8d03d" />
 
 The first plot visualizes clusters in UMAP space, where transcriptionally similar cells appear close together. The second plot visualizes the same clusters in actual spatial coordinates. Since the experiment used cultured U2-OS cells rather than organized tissue sections, strong spatial organization is not expected. Instead, the clusters primarily represent different cellular states such as stages of the cell cycle.
 
